@@ -1,0 +1,65 @@
+body{
+	background: #f4f4f4;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, helvetica;
+}
+.mainslider{
+	position: relative;
+	top: 3.8em;
+	width: 100%;	
+	height: 80vh;
+	background: #ccc;
+}
+.slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: coral;
+	display: none;
+}
+.slide.active{
+	display: block;
+}
+.mainslider h2{
+	margin-top: 9.5em;
+	text-align: center;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	color: rgba(0,0,0,.7);
+	text-transform: uppercase;
+}
+/*-------------ARROWS----------*/
+.arrow{
+	font-size: 2.7em;
+	cursor:pointer;
+	color: #333;
+	transition: ease-in 100ms;
+	padding: 4px;
+}
+.arrow:hover{
+	color: white;
+	font-size: 2.6em;
+
+}
+.leftarrow{
+	position: absolute;
+	left: 1.7em;
+	top: 45%;
+
+}
+.rightarrow{
+	position: absolute;
+	right: 1.7em;
+	top: 45%;
+}
+p{
+	margin-top: 3.9em;
+	text-align: center;
+	font-family: helvetica, arial;
+	font-weight: bold;
+	color: rgba(0,0,0,.7);
+	text-transform: uppercase;
+}
+
